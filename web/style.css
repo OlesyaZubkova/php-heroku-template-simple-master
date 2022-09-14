@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.box-info {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 20px;
+
+}
