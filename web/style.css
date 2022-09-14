@@ -8,5 +8,15 @@ body {
     flex-direction: column;
     width: 250px;
     padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 6px 6px 8px 0px rgba(34, 60, 80, 0.2);
+}
 
+.user_name {
+    margin-bottom: 30px;
+}
+
+#user_name {
+    margin-bottom: 10px;
 }
