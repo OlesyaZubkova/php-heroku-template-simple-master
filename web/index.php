@@ -1,3 +1,12 @@
 <?php
 
-echo 'I\'m alive!';
+declare(strict_types=1);
+
+session_start();
+
+if(!isset($_SESSION['name'])) {
+    include "login.php";
+}
+else {
+    include "greeting.php";
+}
